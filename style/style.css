@@ -178,7 +178,6 @@ body{
     width: 1140px;
     height: 775px;
     margin: 0 auto;
-    border: 2px solid red;
     text-align: center;
     align-items: center;
 }
@@ -202,11 +201,71 @@ body{
     box-sizing: border-box;
     border: 1px solid rgba(13, 19, 33, 0.2);
     border-radius: 16px;
-    padding: 32px;
+    padding: 28px;
 }
 #youtube-video{
     width: 1076px;
     height: 550px;
     border-radius: 16px;
-    margin: 10px 0px;
+    margin: 5px 0px;
+}
+
+/* current-target-container style start here */
+.current-target-container{
+    width: 1140px;
+    height: 460px;
+    margin: 0 auto;
+    margin-top: 151px;
+    text-align: center;
+    align-items: center;
+}
+.current-target-container h1{
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    margin-bottom: 24px;
+}
+.current-target-container p{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 48px;
+}
+.current-target-content{
+    width: 1140px;
+    height: 299px;
+    display: flex;
+}
+.target-icon{
+    width: 364px;
+    height: 299px;
+    padding: 40px;
+    margin: 0px 24px;
+    border-radius: 16px;
+    text-align: left;
+}
+.bg-color1{
+    background: rgba(255, 76, 30, 0.05);
+}
+.bg-color2{
+    background: rgba(0, 76, 232, 0.05);
+}
+.bg-color3{
+    background: rgba(255, 223, 0, 0.05);
+}
+.target-icon img{
+    width: 56px;
+    height: 56px;
+}
+.target-icon h3{
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 800;
+}
+.more{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
 }
